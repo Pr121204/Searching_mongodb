@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Volunteer Campaign Search</title>
+</head>
+<body>
+  <h1>Volunteer Campaign Search</h1>
+  <input type="text" id="campaignNameInput" placeholder="Enter campaign name">
+  <button onclick="searchCampaign()">Search</button>
+
+  <div id="searchResults"></div>
+
+  <script>
+    function searchCampaign() {
+      const campaignName = document.getElementById('campaignNameInput').value;
+
+      fetch(`/search?campaignName=${campaignName}`)
+        .then(response => response.json())
+        .then(data => {
+          displaySearchResults(data);
+        })
+        .catch(error => {
+          console.error('Error searching campaigns:', error);
+        });
+    }
+
+    function displaySearchResults(results) {
+      const searchResultsDiv = document.getElementById('searchResults');
+      searchResultsDiv.innerHTML = '';
+
+      if (results.length === 0) {
+        searchResultsDiv.textContent = 'No results found.';
+        return;
+      }
+
+      const ul = document.createElement('ul');
+      results.forEach(result => {
+        const li = document.createElement('li');
+        li.textContent = result.campaignName;
+        ul.appendChild(li);
+      });
+
+      searchResultsDiv.appendChild(ul);
+    }
+  </script>
+</body>
+</html>

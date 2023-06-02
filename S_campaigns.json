@@ -1,0 +1,98 @@
+[
+  {
+    "campaignName": "Campaign 1",
+    "campaignType": "Type A",
+    "Email": "campaign1@example.com",
+    "OrgName": "Organization 1",
+    "CampHeadName": "Campaign Head 1",
+    "ContactNo": "1234567890",
+    "VolunterNeeded": 10,
+    "Address": "123 Main Street",
+    "StartDate": "2023-01-01",
+    "EndDate": "2023-01-31"
+  },
+  {
+    "campaignName": "Campaign 2",
+    "campaignType": "Type B",
+    "Email": "campaign2@example.com",
+    "OrgName": "Organization 2",
+    "CampHeadName": "Campaign Head 2",
+    "ContactNo": "9876543210",
+    "VolunterNeeded": 5,
+    "Address": "456 Elm Street",
+    "StartDate": "2023-02-01",
+    "EndDate": "2023-02-28"
+  },
+  {
+    "campaignName": "Campaign 3",
+    "campaignType": "Type C",
+    "Email": "campaign3@example.com",
+    "OrgName": "Organization 3",
+    "CampHeadName": "Campaign Head 3",
+    "ContactNo": "5555555555",
+    "VolunterNeeded": 8,
+    "Address": "789 Oak Avenue",
+    "StartDate": "2023-03-01",
+    "EndDate": "2023-03-15"
+  },
+  {
+    "campaignName": "Campaign 4",
+    "campaignType": "Type D",
+    "Email": "campaign4@example.com",
+    "OrgName": "Organization 4",
+    "CampHeadName": "Campaign Head 4",
+    "ContactNo": "9999999999",
+    "VolunterNeeded": 15,
+    "Address": "987 Pine Street",
+    "StartDate": "2023-04-01",
+    "EndDate": "2023-04-30"
+  },
+  {
+    "campaignName": "Campaign 5",
+    "campaignType": "Type E",
+    "Email": "campaign5@example.com",
+    "OrgName": "Organization 5",
+    "CampHeadName": "Campaign Head 5",
+    "ContactNo": "1111111111",
+    "VolunterNeeded": 12,
+    "Address": "789 Elm Street",
+    "StartDate": "2023-05-01",
+    "EndDate": "2023-05-31"
+  },
+  {
+    "campaignName": "Campaign 6",
+    "campaignType": "Type F",
+    "Email": "campaign6@example.com",
+    "OrgName": "Organization 6",
+    "CampHeadName": "Campaign Head 6",
+    "ContactNo": "2222222222",
+    "VolunterNeeded": 20,
+    "Address": "123 Oak Avenue",
+    "StartDate": "2023-06-01",
+    "EndDate": "2023-06-30"
+  },
+  {
+    "campaignName": "Campaign 7",
+    "campaignType": "Type G",
+    "Email": "campaign7@example.com",
+    "OrgName": "Organization 7",
+    "CampHeadName": "Campaign Head 7",
+    "ContactNo": "1234577890",
+    "VolunterNeeded": 8,
+    "Address": "123 Corner Palace",
+    "StartDate": "2023-02-01",
+    "EndDate": "2023-02-31"
+  },
+  {
+    "campaignName": "Campaign 8",
+    "campaignType": "Type H",
+    "Email": "campaign8@example.com",
+    "OrgName": "Organization 8",
+    "CampHeadName": "Campaign Head 8",
+    "ContactNo": "9876543910",
+    "VolunterNeeded": 5,
+    "Address": "456 Albert Street",
+    "StartDate": "2023-01-01",
+    "EndDate": "2023-01-28"
+  }
+]
